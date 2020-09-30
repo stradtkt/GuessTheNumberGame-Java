@@ -6,13 +6,6 @@
     <modules>
         <module>core</module>
     </modules>
-    <dependencies>
-        <dependency>
-            <groupId>ch.qos.logback</groupId>
-            <artifactId>logback-classic</artifactId>
-            <version>1.2.3</version>
-        </dependency>
-    </dependencies>
     <groupId>com.stradtkt</groupId>
     <artifactId>guess-the-number-game</artifactId>
     <version>1.0-SNAPSHOT</version>
@@ -20,6 +13,24 @@
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
+        <logback.version>1.2.3</logback.version>
+        <spring.version>5.0.5.RELEASE</spring.version>
     </properties>
+    <dependencyManagement>
+        <dependencies>
+            <!--Logging-->
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-classic</artifactId>
+                <version>${logback.version}</version>
+            </dependency>
+            <!--Spring-->
+                <dependency>
+                    <groupId>org.springframework</groupId>
+                    <artifactId>spring-context</artifactId>
+                    <version>${spring.version}</version>
+                </dependency>
+        </dependencies>
+    </dependencyManagement>
 
 </project>
