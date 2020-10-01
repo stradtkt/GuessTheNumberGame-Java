@@ -5,6 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <modules>
         <module>core</module>
+        <module>console</module>
     </modules>
     <groupId>com.stradtkt</groupId>
     <artifactId>guess-the-number-game</artifactId>
