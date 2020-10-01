@@ -16,6 +16,8 @@ public class Main {
         NumberGenerator numberGenerator = context.getBean("numberGenerator", NumberGenerator.class);
         int number = numberGenerator.next();
         log.info("number = {}", number);
+        Game game = context.getBean(Game.class);
+
         context.close();
     }
 }
