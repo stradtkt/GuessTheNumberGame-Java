@@ -1,6 +1,6 @@
 package com.stradtkt.console;
 
-import com.stradtkt.AppConfig;
+import com.stradtkt.config.AppConfig;
 import com.stradtkt.MessageGenerator;
 import com.stradtkt.NumberGenerator;
 import org.slf4j.Logger;
