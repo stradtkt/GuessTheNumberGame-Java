@@ -1,5 +1,7 @@
+com\stradtkt\AppConfig.class
 com\stradtkt\Game.class
 com\stradtkt\GameImpl.class
-com\stradtkt\Main.class
 com\stradtkt\NumberGenerator.class
+com\stradtkt\MessageGeneratorImpl.class
 com\stradtkt\NumberGeneratorImpl.class
+com\stradtkt\MessageGenerator.class

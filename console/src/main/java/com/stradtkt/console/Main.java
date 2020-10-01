@@ -1,5 +1,8 @@
-package com.stradtkt;
+package com.stradtkt.console;
 
+import com.stradtkt.AppConfig;
+import com.stradtkt.MessageGenerator;
+import com.stradtkt.NumberGenerator;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.ConfigurableApplicationContext;
