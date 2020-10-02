@@ -1,7 +1,10 @@
-com\stradtkt\AppConfig.class
+com\stradtkt\GuessCount.class
 com\stradtkt\Game.class
+com\stradtkt\MaxNumber.class
+com\stradtkt\MinNumber.class
 com\stradtkt\GameImpl.class
 com\stradtkt\NumberGenerator.class
+com\stradtkt\config\GameConfig.class
 com\stradtkt\MessageGeneratorImpl.class
 com\stradtkt\NumberGeneratorImpl.class
 com\stradtkt\MessageGenerator.class
