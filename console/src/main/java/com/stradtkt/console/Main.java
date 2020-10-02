@@ -1,6 +1,6 @@
 package com.stradtkt.console;
 
-import com.stradtkt.config.AppConfig;
+import com.stradtkt.config.GameConfig;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.ConfigurableApplicationContext;
@@ -11,7 +11,7 @@ public class Main {
 
     public static void main(String[] args) {
         log.info("Guess The Number Game");
-        ConfigurableApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
+        ConfigurableApplicationContext context = new AnnotationConfigApplicationContext(GameConfig.class);
         context.close();
     }
 }
